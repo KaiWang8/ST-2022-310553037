@@ -41,7 +41,7 @@ public class PriorityQueueTest {
         Exception exception = assertThrows(ClassCastException.class,()->{
             PriorityQueue test = new PriorityQueue();
             test.add(1);
-            test.add(2);
+            test.add('a');
         });
     }
 
